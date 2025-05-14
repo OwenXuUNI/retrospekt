@@ -1,0 +1,67 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Press Start 2P', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0, 0, 0);
+    border: 0.5vh solid#00ff00;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+h1 {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 7vh;
+    color:#00ff00;
+    text-shadow: 0 0 10px #00ff00;
+}
+
+h2 {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 7vh;
+    color:#00ff00;
+    text-shadow: 0 0 10px #00ff00;
+    padding-left: 50px;
+}
+
+#click {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 2.5vh;
+    width: 10vw;
+    height: 10vh;
+    border: 0.3vh solid#00ff00;
+    background-color: black;
+    color:#00ff00;
+    box-shadow: 0 0 10px #00ff00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    cursor: pointer;
+    animation: flick 1.5s infinite;
+    margin-bottom: 2vh;
+    margin-left: 2vw;
+}
+
+@keyframes flick{
+    0%, 100% {
+    background-color: black;
+    color:#00ff00;
+    }
+
+    50% {
+    background-color:#00ff00;
+    color:black;
+    }
+}
