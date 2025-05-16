@@ -129,3 +129,11 @@ h2 {
     color:black;
     }
 }
+
+#click:hover {
+    background-color: #00ff00;
+    border: 0.3vh solid#00ff00;
+    color: black;
+    box-shadow: 0 0 10px #00ff00;
+    animation: none;
+}
